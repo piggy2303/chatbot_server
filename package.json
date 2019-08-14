@@ -6,6 +6,7 @@
     "babel-register": "^6.26.0",
     "bluebird": "^3.5.3",
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "eslint-plugin-flowtype": "^3.4.2",
     "express": "^4.16.4",
     "express-formidable": "^1.2.0",

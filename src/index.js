@@ -1,29 +1,29 @@
-import express from 'express';
-import bodyParser from 'body-parser';
+import express from "express";
+import bodyParser from "body-parser";
+import cors from "cors";
 
 // router
-import user from './route/user';
-import flower from './route/flower';
-import upload from './route/upload';
-import image from './route/image';
+import user from "./route/user";
+import image from "./route/image";
+import phongtruyenthong from "./route/phongtruyenthong";
 
 const app = express();
 const port = process.env.PORT;
-app.set('port', port || 5000);
+app.set("port", port || 5000);
 
-app.use(bodyParser.json({ limit: '200mb', extended: true }));
-app.use(bodyParser.urlencoded({ limit: '200mb', extended: true }));
+app.use(bodyParser.json({ limit: "200mb", extended: true }));
+app.use(bodyParser.urlencoded({ limit: "200mb", extended: true }));
 app.use(express.json());
+app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send('hello world');
+app.get("/", (req, res) => {
+  res.send("hello world");
 });
 
-app.use('/chatbot/upload', upload);
-app.use('/chatbot/image', image);
-app.use('/chatbot/flower', flower);
-app.use('/chatbot/user', user);
+app.use("/chatbot/image", image);
+app.use("/chatbot/user", user);
+app.use("/chatbot/phongtruyenthong", phongtruyenthong);
 
-app.listen(app.get('port'), () => {
-  console.log('Node server is running on port ' + app.get('port'));
+app.listen(app.get("port"), () => {
+  console.log("Node server is running on port " + app.get("port"));
 });
