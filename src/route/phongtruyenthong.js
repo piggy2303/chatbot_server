@@ -39,9 +39,47 @@ app.get("/all", async (req, res) => {
   );
 });
 
-app.get("/:id", async (req, res) => {
-  console.log("/:id");
+app.post("/update", async (req, res) => {
+  const schema = {
+    image_id: Joi.string().required(),
+    text_en: Joi.string(),
+    text_vn: Joi.string()
+  };
 
+  // validation image_id
+  const validation = Joi.validate(req.body, schema);
+  if (validation.error) {
+    res.send(error(validation));
+    return null;
+  }
+
+  await mongo.connect(
+    MONGODB_URL,
+    { useNewUrlParser: true },
+    (err, database) => {
+      assert.equal(null, err);
+      const db = database.db(DATABASE_NAME);
+      const collection = db.collection(COLLECTION_DATA_IMAGE);
+
+      collection.updateOne(
+        { image_id: req.body.image_id },
+        {
+          $set: {
+            text_en: req.body.text_en,
+            text_vn: req.body.text_vn
+          }
+        },
+        (err, result) => {
+          assert.equal(err, null);
+          console.log("update one document");
+          res.send(success("update one document"));
+        }
+      );
+    }
+  );
+});
+
+app.get("/:id", async (req, res) => {
   const schema = {
     id: Joi.string()
       .min(0)
@@ -61,7 +99,6 @@ app.get("/:id", async (req, res) => {
     { useNewUrlParser: true },
     (err, database) => {
       assert.equal(null, err);
-      console.log("Connected successfully to server");
       const db = database.db(DATABASE_NAME);
 
       findDocuments(db, COLLECTION_DATA_IMAGE, { image_id: id }, result => {
