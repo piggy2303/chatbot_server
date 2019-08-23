@@ -20,6 +20,8 @@ import {
 const app = express.Router();
 
 app.get("/all", async (req, res) => {
+  console.log("get all");
+
   await mongo.connect(
     MONGODB_URL,
     { useNewUrlParser: true },
