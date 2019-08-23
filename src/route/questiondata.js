@@ -7,7 +7,8 @@ import { error, success } from "./defaultRespone";
 import {
   MONGODB_URL,
   DATABASE_NAME,
-  COLLECTION_DATA_IMAGE
+  COLLECTION_DATA_IMAGE,
+  COLLECTION_QUESTION_DATA
 } from "../constant/DATABASE";
 import {
   findDocuments,
@@ -25,7 +26,7 @@ app.get("/all", async (req, res) => {
     (err, database) => {
       assert.equal(null, err);
       const db = database.db(DATABASE_NAME);
-      const collection = db.collection(COLLECTION_DATA_IMAGE);
+      const collection = db.collection(COLLECTION_QUESTION_DATA);
 
       collection.find({}).toArray((err, docs) => {
         assert.equal(err, null);
@@ -39,17 +40,17 @@ app.get("/all", async (req, res) => {
   );
 });
 
-app.post("/update", async (req, res) => {
-  // const schema = {
-  //   image_id: Joi.string().required()
-  // };
-
-  // // validation image_id
-  // const validation = Joi.validate(req.body, schema);
-  // if (validation.error) {
-  //   res.send(error(validation));
-  //   return null;
-  // }
+app.post("/add", async (req, res) => {
+  const schema = {
+    text: Joi.string().required(),
+    intent: Joi.string().required()
+  };
+  // validation
+  const validation = Joi.validate(req.body, schema);
+  if (validation.error) {
+    res.send(error(validation));
+    return null;
+  }
 
   await mongo.connect(
     MONGODB_URL,
@@ -57,34 +58,23 @@ app.post("/update", async (req, res) => {
     (err, database) => {
       assert.equal(null, err);
       const db = database.db(DATABASE_NAME);
-      const collection = db.collection(COLLECTION_DATA_IMAGE);
+      const collection = db.collection(COLLECTION_QUESTION_DATA);
 
-      collection.updateOne(
-        { image_id: req.body.image_id },
-        {
-          $set: {
-            text_en: req.body.text_en == null ? "" : req.body.text_en,
-            text_vn: req.body.text_vn == null ? "" : req.body.text_vn
-          }
-        },
-        (err, result) => {
-          assert.equal(err, null);
-          console.log(
-            "update one document",
-            req.body.image_id,
-            req.body.text_en,
-            req.body.text_vn
-          );
-          res.send(success("update one document"));
-        }
-      );
+      var new_data = {
+        text: req.body.text,
+        intent: req.body.intent
+      };
+
+      collection.insertOne(new_data, (err, result) => {
+        assert.equal(err, null);
+        console.log("add one document", new_data);
+        res.send(success(new_data));
+      });
     }
   );
 });
 
-app.get("/:id", async (req, res) => {
-  console.log("detail", req.params.id);
-
+app.get("/intent/:id", async (req, res) => {
   const schema = {
     id: Joi.string()
       .min(0)
@@ -106,7 +96,7 @@ app.get("/:id", async (req, res) => {
       assert.equal(null, err);
       const db = database.db(DATABASE_NAME);
 
-      findDocuments(db, COLLECTION_DATA_IMAGE, { image_id: id }, result => {
+      findDocuments(db, COLLECTION_QUESTION_DATA, { intent: id }, result => {
         if (result.toString() == "") {
           res.send(error(err));
         } else {

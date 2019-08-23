@@ -6,6 +6,7 @@ import cors from "cors";
 import user from "./route/user";
 import image from "./route/image";
 import phongtruyenthong from "./route/phongtruyenthong";
+import questiondata from "./route/questiondata";
 
 const app = express();
 const port = process.env.PORT;
@@ -23,6 +24,7 @@ app.get("/", (req, res) => {
 app.use("/chatbot/image", image);
 app.use("/chatbot/user", user);
 app.use("/chatbot/phongtruyenthong", phongtruyenthong);
+app.use("/chatbot/questiondata", questiondata);
 
 app.listen(app.get("port"), () => {
   console.log("Node server is running on port " + app.get("port"));
