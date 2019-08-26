@@ -1,0 +1,162 @@
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d98"},"text":"xin chào","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d99"},"text":"chào bạn","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d9a"},"text":"chào mừng bạn","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d9b"},"text":"chào buổi sáng ","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d9c"},"text":"chào buổi chiều","intent":"greeting","entities":[{"start":{"$numberInt":"10"},"end":{"$numberInt":"13"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d9d"},"text":"hello","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d9e"},"text":"good morning","intent":"greeting","entities":[{"start":{"$numberInt":"8"},"end":{"$numberInt":"10"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48d9f"},"text":"chào","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da0"},"text":"chào cậu","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da1"},"text":"chào robot","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da2"},"text":"robot ơi","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da3"},"text":"ê robot","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da4"},"text":"xin chào robot","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da5"},"text":"này robot","intent":"greeting","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da6"},"text":"robot này","intent":"greeting","entities":[{"start":{"$numberInt":"6"},"end":{"$numberInt":"9"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da7"},"text":"rất vui được làm quen","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da8"},"text":"hú robot","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48da9"},"text":"robot kia ơi","intent":"greeting","entities":[{"start":{"$numberInt":"6"},"end":{"$numberInt":"9"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48daa"},"text":"hey robot","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dab"},"text":"chào mừng robot","intent":"greeting"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dac"},"text":"bạn ăn cơm chưa","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dad"},"text":"hôm nay bạn thế nào","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dae"},"text":"bye","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48daf"},"text":"tạm biệt","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db0"},"text":"bạn biết bay không ","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db1"},"text":"bạn thích làm gì nhất","intent":"chat","entities":[{"start":{"$numberInt":"14"},"end":{"$numberInt":"16"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db2"},"text":"bạn có thể hát một bài không","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db3"},"text":"good bye","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db4"},"text":"một cộng một bằng mấy","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db5"},"text":"bạn có sở thích gì không","intent":"chat","entities":[{"start":{"$numberInt":"16"},"end":{"$numberInt":"18"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db6"},"text":"bạn có tiền không","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db7"},"text":"bạn thử kể một câu chuyện ma đi","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db8"},"text":"bạn có người yêu chưa","intent":"chat","entities":[{"start":{"$numberInt":"7"},"end":{"$numberInt":"12"},"entity":"human","value":"human"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48db9"},"text":"đoán xem tôi có gì","intent":"chat","entities":[{"start":{"$numberInt":"16"},"end":{"$numberInt":"18"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dba"},"text":"bạn là trai hay gái","intent":"chat","entities":[{"start":{"$numberInt":"9"},"end":{"$numberInt":"11"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dbb"},"text":"bạn có yêu tôi không","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dbc"},"text":"thời tiết hôm nay thế nào","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dbd"},"text":"bạn có bằng cấp gì không","intent":"chat","entities":[{"start":{"$numberInt":"16"},"end":{"$numberInt":"18"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dbe"},"text":"ngoài nói ra bạn có làm được thứ gì khác không","intent":"chat","entities":[{"start":{"$numberInt":"33"},"end":{"$numberInt":"35"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dbf"},"text":"chỉ số iq của bạn là bao nhiêu","intent":"chat"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc0"},"text":"tên của bạn là gì","intent":"introduce","entities":[{"start":{"$numberInt":"15"},"end":{"$numberInt":"17"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc1"},"text":"ai là người tạo ra bạn","intent":"introduce","entities":[{"start":{"$numberInt":"6"},"end":{"$numberInt":"11"},"entity":"human","value":"human"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc2"},"text":"giới thiệu về bản thân đi ","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc3"},"text":"nhiệm vụ của bạn là gì","intent":"introduce","entities":[{"start":{"$numberInt":"20"},"end":{"$numberInt":"22"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc4"},"text":"bạn bao nhiêu tuổi","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc5"},"text":"bạn đến từ đâu","intent":"introduce","entities":[{"start":{"$numberInt":"11"},"end":{"$numberInt":"14"},"entity":"location","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc6"},"text":"bạn thường làm gì lúc rảnh rỗi","intent":"introduce","entities":[{"start":{"$numberInt":"23"},"end":{"$numberInt":"26"},"entity":"object","value":"picture"},{"start":{"$numberInt":"15"},"end":{"$numberInt":"17"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc7"},"text":"bạn có thể làm được những gì","intent":"introduce","entities":[{"start":{"$numberInt":"26"},"end":{"$numberInt":"28"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc8"},"text":"bạn là ai","intent":"introduce","entities":[{"start":{"$numberInt":"7"},"end":{"$numberInt":"9"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dc9"},"text":"sở thích của bạn là gì","intent":"introduce","entities":[{"start":{"$numberInt":"20"},"end":{"$numberInt":"22"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dca"},"text":"ai là người đặt tên cho bạn","intent":"introduce","entities":[{"start":{"$numberInt":"6"},"end":{"$numberInt":"11"},"entity":"human","value":"human"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dcb"},"text":"chất liệu để tạo ra bạn là gì","intent":"introduce","entities":[{"start":{"$numberInt":"27"},"end":{"$numberInt":"29"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dcc"},"text":"gia đình bạn có mấy người","intent":"introduce","entities":[{"start":{"$numberInt":"20"},"end":{"$numberInt":"25"},"entity":"human","value":"human"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dcd"},"text":"bạn có anh chị em gì không","intent":"introduce","entities":[{"start":{"$numberInt":"18"},"end":{"$numberInt":"20"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dce"},"text":"bạn có thích gà rán không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dcf"},"text":"bạn có chỉ số eq không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd0"},"text":"bạn thích chơi môn thể thao nào","intent":"introduce","entities":[{"start":{"$numberInt":"15"},"end":{"$numberInt":"17"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd1"},"text":"số đo 3 vòng của bạn là bao nhiêu","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd2"},"text":"kể cho mình nghe tên một vài loại mĩ phẩm bạn thường dùng","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd3"},"text":"kể cho mình nghe về bố mẹ bạn","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd4"},"text":"hãy kể tên một vài món ăn mà bạn thích\n","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd5"},"text":"ca sĩ bạn yêu thích là ai, đó là người như thế nào","intent":"introduce","entities":[{"start":{"$numberInt":"33"},"end":{"$numberInt":"38"},"entity":"human","value":"human"},{"start":{"$numberInt":"23"},"end":{"$numberInt":"25"},"entity":"human","value":"question"},{"start":{"$numberInt":"27"},"end":{"$numberInt":"29"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd6"},"text":"bạn có thích sơn tùng không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd7"},"text":"ngoài điện ra thì bạn thích ăn món gì khác ","intent":"introduce","entities":[{"start":{"$numberInt":"35"},"end":{"$numberInt":"37"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd8"},"text":"bạn có thích xem bóng đá không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dd9"},"text":"bạn thích ăn món gì","intent":"introduce","entities":[{"start":{"$numberInt":"17"},"end":{"$numberInt":"19"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dda"},"text":"bạn có biết hát không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48ddb"},"text":"bạn thích con gì nhất","intent":"introduce","entities":[{"start":{"$numberInt":"14"},"end":{"$numberInt":"16"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48ddc"},"text":"bạn thích môn thể thao nào","intent":"introduce","entities":[{"start":{"$numberInt":"10"},"end":{"$numberInt":"12"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48ddd"},"text":"cầu thủ nào bạn yêu thích nhất","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dde"},"text":"bạn có thích chơi game không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48ddf"},"text":"bạn có sợ cái gì không","intent":"introduce","entities":[{"start":{"$numberInt":"14"},"end":{"$numberInt":"16"},"entity":"object","value":"question"},{"start":{"$numberInt":"10"},"end":{"$numberInt":"16"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de0"},"text":"bạn thích bài hát nào nhất","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de1"},"text":"bạn cao bao nhiêu","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de2"},"text":"hãy cho tôi biết số đo ba vòng của bạn đi","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de3"},"text":"bạn có bay được không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de4"},"text":"bạn di chuyển như thế nào","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de5"},"text":"bạn có biết làm việc nhà không","intent":"introduce","entities":[{"start":{"$numberInt":"21"},"end":{"$numberInt":"24"},"entity":"object","value":"building"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de6"},"text":"bạn dđược làm từ nguyên liệu gì","intent":"introduce","entities":[{"start":{"$numberInt":"29"},"end":{"$numberInt":"31"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de7"},"text":"bạn có thể nấu ăn không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de8"},"text":"bạn thích trời mưa hay trời nắng","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48de9"},"text":"bạn có thích tập thể dục không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dea"},"text":"bạn có thể đọc sách không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48deb"},"text":"bạn có biết viết không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dec"},"text":"bạn có sợ ma không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48ded"},"text":"bạn đi ngủ lúc mấy giờ","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dee"},"text":"bạn có sử dụng facebook không","intent":"introduce"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48def"},"text":"mật khẩu wifi phòng truyền thống là gì","intent":"ask_what","entities":[{"start":{"$numberInt":"36"},"end":{"$numberInt":"38"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df0"},"text":"đây/kia là cái gì","intent":"ask_what","entities":[{"start":{"$numberInt":"15"},"end":{"$numberInt":"17"},"entity":"object","value":"question"},{"start":{"$numberInt":"11"},"end":{"$numberInt":"17"},"entity":"object","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"},{"start":{"$numberInt":"4"},"end":{"$numberInt":"7"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df1"},"text":"cái gì kia","intent":"ask_what","entities":[{"start":{"$numberInt":"4"},"end":{"$numberInt":"6"},"entity":"object","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"6"},"entity":"object","value":"question"},{"start":{"$numberInt":"7"},"end":{"$numberInt":"10"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df2"},"text":"thứ trong thùng kính là cái gì thế","intent":"ask_what","entities":[{"start":{"$numberInt":"28"},"end":{"$numberInt":"30"},"entity":"object","value":"question"},{"start":{"$numberInt":"24"},"end":{"$numberInt":"30"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df3"},"text":"đây là màu gì","intent":"ask_what","entities":[{"start":{"$numberInt":"11"},"end":{"$numberInt":"13"},"entity":"object","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df4"},"text":"đây là cái gì","intent":"ask_what","entities":[{"start":{"$numberInt":"11"},"end":{"$numberInt":"13"},"entity":"object","value":"question"},{"start":{"$numberInt":"7"},"end":{"$numberInt":"13"},"entity":"object","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df5"},"text":"đây là cái chi","intent":"ask_what","entities":[{"start":{"$numberInt":"11"},"end":{"$numberInt":"14"},"entity":"object","value":"question"},{"start":{"$numberInt":"7"},"end":{"$numberInt":"14"},"entity":"object","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df6"},"text":"vật này là cái gì vậy","intent":"ask_what","entities":[{"start":{"$numberInt":"15"},"end":{"$numberInt":"17"},"entity":"object","value":"question"},{"start":{"$numberInt":"11"},"end":{"$numberInt":"17"},"entity":"object","value":"question"},{"start":{"$numberInt":"4"},"end":{"$numberInt":"7"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df7"},"text":"giải thưởng này là gì","intent":"ask_what","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"11"},"entity":"object","value":"cup"},{"start":{"$numberInt":"19"},"end":{"$numberInt":"21"},"entity":"object","value":"question"},{"start":{"$numberInt":"12"},"end":{"$numberInt":"15"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df8"},"text":"bức ảnh này nói về cái gì","intent":"ask_what","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"7"},"entity":"object","value":"picture"},{"start":{"$numberInt":"4"},"end":{"$numberInt":"7"},"entity":"object","value":"picture"},{"start":{"$numberInt":"23"},"end":{"$numberInt":"25"},"entity":"object","value":"question"},{"start":{"$numberInt":"19"},"end":{"$numberInt":"25"},"entity":"object","value":"question"},{"start":{"$numberInt":"8"},"end":{"$numberInt":"11"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48df9"},"text":"những người trong tranh đang làm gì vậy","intent":"ask_what","entities":[{"start":{"$numberInt":"33"},"end":{"$numberInt":"35"},"entity":"object","value":"question"},{"start":{"$numberInt":"6"},"end":{"$numberInt":"11"},"entity":"human","value":"human"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dfa"},"text":"dẫn t đi chơi nào","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dfb"},"text":"dẫn tôi đi thăm quan nào","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dfc"},"text":"đưa tôi đến nhà vệ sinh","intent":"command_lead_way","entities":[{"start":{"$numberInt":"12"},"end":{"$numberInt":"15"},"entity":"object","value":"building"},{"start":{"$numberInt":"12"},"end":{"$numberInt":"23"},"entity":"location","value":"place"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dfd"},"text":"đưa tôi đến lối ra","intent":"command_lead_way","entities":[{"start":{"$numberInt":"12"},"end":{"$numberInt":"18"},"entity":"location","value":"place"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dfe"},"text":"chỉ đường cho tôi đến nhà vệ sinh nào","intent":"command_lead_way","entities":[{"start":{"$numberInt":"22"},"end":{"$numberInt":"25"},"entity":"object","value":"building"},{"start":{"$numberInt":"22"},"end":{"$numberInt":"33"},"entity":"location","value":"place"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48dff"},"text":"đưa tôi đi một vòng xem nào","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e00"},"text":"bạn có thể dắt tôi đi quanh chỗ này được không","intent":"command_lead_way","entities":[{"start":{"$numberInt":"32"},"end":{"$numberInt":"35"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e01"},"text":"đưa tôi đi tới các giải thưởng","intent":"command_lead_way","entities":[{"start":{"$numberInt":"19"},"end":{"$numberInt":"30"},"entity":"object","value":"cup"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e02"},"text":"hãy đưa tôi đi thăm quan nơi này","intent":"command_lead_way","entities":[{"start":{"$numberInt":"29"},"end":{"$numberInt":"32"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e03"},"text":"tôi muốn đi quanh nơi này","intent":"command_lead_way","entities":[{"start":{"$numberInt":"22"},"end":{"$numberInt":"25"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e04"},"text":"dẫn đường cho tôi đi","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e05"},"text":"đưa tôi đi thăm quan nào","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e06"},"text":"nào, dẫn t đi một vòng xem sao","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e07"},"text":"cùng đi nhé","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e08"},"text":"đi chơi một chút thì sao nhỉ","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e09"},"text":"hướng dẫn cho tôi nào","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e0a"},"text":"dẫn đường cho tôi đi","intent":"command_lead_way"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e0b"},"text":"đưa tôi đi quanh đây nào","intent":"command_lead_way","entities":[{"start":{"$numberInt":"17"},"end":{"$numberInt":"20"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e0c"},"text":"đưa tôi đi tới tượng bác hồ","intent":"command_lead_way","entities":[{"start":{"$numberInt":"15"},"end":{"$numberInt":"20"},"entity":"object","value":"statue"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e0d"},"text":"dẫn mình đi tới khu trưng bày huân chương của đại học quốc gia","intent":"command_lead_way","entities":[{"start":{"$numberInt":"30"},"end":{"$numberInt":"41"},"entity":"object","value":"cup"},{"start":{"$numberInt":"46"},"end":{"$numberInt":"53"},"entity":"object","value":"building"},{"start":{"$numberInt":"46"},"end":{"$numberInt":"62"},"entity":"university","value":"university"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e0e"},"text":"nhà vệ sinh ở đâu","intent":"ask_where","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"object","value":"building"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"11"},"entity":"location","value":"place"},{"start":{"$numberInt":"14"},"end":{"$numberInt":"17"},"entity":"location","value":"question"},{"start":{"$numberInt":"12"},"end":{"$numberInt":"17"},"entity":"location","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e0f"},"text":"đây là đâu","intent":"ask_where","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"},{"start":{"$numberInt":"7"},"end":{"$numberInt":"10"},"entity":"location","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e10"},"text":"hiệu trưởng trường đại học công nghệ hiện nay là ai","intent":"ask_who","entities":[{"start":{"$numberInt":"19"},"end":{"$numberInt":"26"},"entity":"object","value":"building"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"11"},"entity":"human","value":"job"},{"start":{"$numberInt":"49"},"end":{"$numberInt":"51"},"entity":"human","value":"question"},{"start":{"$numberInt":"19"},"end":{"$numberInt":"36"},"entity":"university","value":"university"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e11"},"text":"ai là nam giáo viên đẹp trai nhất đại học công nghệ","intent":"ask_who","entities":[{"start":{"$numberInt":"34"},"end":{"$numberInt":"41"},"entity":"object","value":"building"},{"start":{"$numberInt":"10"},"end":{"$numberInt":"19"},"entity":"human","value":"job"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"},{"start":{"$numberInt":"34"},"end":{"$numberInt":"51"},"entity":"university","value":"university"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e12"},"text":"ai là nữ giảng viên xinh nhất đại học công nghệ","intent":"ask_who","entities":[{"start":{"$numberInt":"30"},"end":{"$numberInt":"37"},"entity":"object","value":"building"},{"start":{"$numberInt":"9"},"end":{"$numberInt":"19"},"entity":"human","value":"job"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"},{"start":{"$numberInt":"30"},"end":{"$numberInt":"47"},"entity":"university","value":"university"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e13"},"text":"đây là ai","intent":"ask_who","entities":[{"start":{"$numberInt":"7"},"end":{"$numberInt":"9"},"entity":"human","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e14"},"text":"ai kia","intent":"ask_who","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"},{"start":{"$numberInt":"3"},"end":{"$numberInt":"6"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e15"},"text":"ai đang nói thế","intent":"ask_who","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e16"},"text":"ai là nhân vật chính trong bức tranh này","intent":"ask_who","entities":[{"start":{"$numberInt":"27"},"end":{"$numberInt":"36"},"entity":"object","value":"picture"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"},{"start":{"$numberInt":"37"},"end":{"$numberInt":"40"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e17"},"text":"cô vân là ai","intent":"ask_who","entities":[{"start":{"$numberInt":"10"},"end":{"$numberInt":"12"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e18"},"text":"thầy tùng là ai","intent":"ask_who","entities":[{"start":{"$numberInt":"13"},"end":{"$numberInt":"15"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e19"},"text":"ai là người vui tính nhất bạn đã từng gặp","intent":"ask_who","entities":[{"start":{"$numberInt":"6"},"end":{"$numberInt":"11"},"entity":"human","value":"human"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"2"},"entity":"human","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e1a"},"text":"trong ảnh 1.0 là cái gì vậy","intent":"ask_what","entities":[{"start":{"$numberInt":"6"},"end":{"$numberInt":"9"},"entity":"object","value":"picture"},{"start":{"$numberInt":"21"},"end":{"$numberInt":"23"},"entity":"object","value":"question"},{"start":{"$numberInt":"17"},"end":{"$numberInt":"23"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e1b"},"text":"tại sao lại có đại học đông dương","intent":"ask_why","entities":[{"start":{"$numberInt":"15"},"end":{"$numberInt":"22"},"entity":"object","value":"building"},{"start":{"$numberInt":"15"},"end":{"$numberInt":"33"},"entity":"university","value":"university"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e1c"},"text":"đây là cái gì","intent":"ask_what","entities":[{"start":{"$numberInt":"11"},"end":{"$numberInt":"13"},"entity":"object","value":"question"},{"start":{"$numberInt":"7"},"end":{"$numberInt":"13"},"entity":"object","value":"question"},{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"location","value":"position"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e1d"},"text":"nguồn gốc của ảnh 1.0 là gì","intent":"ask_why","entities":[{"start":{"$numberInt":"14"},"end":{"$numberInt":"17"},"entity":"object","value":"picture"},{"start":{"$numberInt":"25"},"end":{"$numberInt":"27"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e1e"},"text":"ảnh 1.0 nói về cái gì vậy","intent":"ask_what","entities":[{"start":{"$numberInt":"0"},"end":{"$numberInt":"3"},"entity":"object","value":"picture"},{"start":{"$numberInt":"19"},"end":{"$numberInt":"21"},"entity":"object","value":"question"},{"start":{"$numberInt":"15"},"end":{"$numberInt":"21"},"entity":"object","value":"question"}]}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e1f"},"text":"đi về chỗ ngay","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e20"},"text":"về chỗ đi ","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e21"},"text":"đi về chỗ","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e22"},"text":"đi về chỗ đi ","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e23"},"text":"quay trở về chỗ của bạn đi","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e24"},"text":"quay trở lại","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e25"},"text":"về vị trí ban đầu","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e26"},"text":"về","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e27"},"text":"quay về","intent":"command_return"}
+{"_id":{"$oid":"5d5f6070a43e45f3fca48e28"},"text":"đi về","intent":"command_return"}
+{"_id":{"$oid":"5d5f65820ead532603c62e07"},"text":"kính chào bạn","intent":"greeting"}
+{"_id":{"$oid":"5d5f83cafd93a62b91502d4a"},"text":"bạn là ai\n","intent":"introduce"}
+{"_id":{"$oid":"5d5f83eefd93a62b91502d4b"},"text":"bạn là ai vậy","intent":"introduce"}
+{"_id":{"$oid":"5d5f83fdfd93a62b91502d4c"},"text":"bạn là ai vậy","intent":"introduce"}
+{"_id":{"$oid":"5d5f84aafd93a62b91502d4d"},"text":"xin hỏi bạn là ai","intent":"introduce"}
+{"_id":{"$oid":"5d5f84fffd93a62b91502d4e"},"text":"bạn là ai thế","intent":"introduce"}
+{"_id":{"$oid":"5d5f8531fd93a62b91502d4f"},"text":"bạn là ai vậy","intent":"introduce"}
+{"_id":{"$oid":"5d5f857efd93a62b91502d50"},"text":"đây là ai","intent":"ask_who"}
+{"_id":{"$oid":"5d5f8584fd93a62b91502d51"},"text":"kia là ai","intent":"ask_who"}
+{"_id":{"$oid":"5d5f85d0fd93a62b91502d52"},"text":"đây là đâu","intent":"ask_where"}
+{"_id":{"$oid":"5d5f861efd93a62b91502d53"},"text":"bạn kia là ai","intent":"ask_who"}
+{"_id":{"$oid":"5d601f98659fba300e537886"},"text":"xin chào bạn","intent":"greeting"}
+{"_id":{"$oid":"5d601faa659fba300e537887"},"text":"rất hân hạnh được làm quen","intent":"greeting"}
+{"_id":{"$oid":"5d6022f8659fba300e537888"},"text":"người trong ảnh kia là ai","intent":"ask_who"}
+{"_id":{"$oid":"5d602305659fba300e537889"},"text":"ai là người trong ảnh","intent":"ask_who"}
+{"_id":{"$oid":"5d60230f659fba300e53788a"},"text":"ai đang đứng trong ảnh kia","intent":"ask_who"}
+{"_id":{"$oid":"5d602320659fba300e53788b"},"text":"nhân vật nào đang đứng trong ảnh","intent":"ask_who"}

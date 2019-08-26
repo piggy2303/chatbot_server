@@ -10,7 +10,7 @@ import questiondata from "./route/questiondata";
 
 const app = express();
 const port = process.env.PORT;
-app.set("port", port || 5000);
+app.set("port", port || 5001);
 
 app.use(bodyParser.json({ limit: "200mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "200mb", extended: true }));

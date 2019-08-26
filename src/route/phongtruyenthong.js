@@ -64,18 +64,18 @@ app.post("/update", async (req, res) => {
         {
           $set: {
             text_en: req.body.text_en == null ? "" : req.body.text_en,
-            text_vn: req.body.text_vn == null ? "" : req.body.text_vn
+            text_vn: req.body.text_vn == null ? "" : req.body.text_vn,
+            answer_who: req.body.answer_who == null ? "" : req.body.answer_who,
+            answer_what:
+              req.body.answer_what == null ? "" : req.body.answer_what,
+            answer_where:
+              req.body.answer_where == null ? "" : req.body.answer_where
           }
         },
         (err, result) => {
           assert.equal(err, null);
-          console.log(
-            "update one document",
-            req.body.image_id,
-            req.body.text_en,
-            req.body.text_vn
-          );
-          res.send(success("update one document"));
+          console.log("update one document", req.body);
+          res.send(success(req.body));
         }
       );
     }
